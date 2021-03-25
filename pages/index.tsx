@@ -1,6 +1,8 @@
 import Head from "next/head";
-import IntroPage from "../comps/Home/IntroPage/IntroPage";
-import styles from "../styles/Home.module.css";
+import NavBar from "comps/NavBar";
+import IntroPage from "comps/IntroPage";
+import LargeTitle from "comps/LargeTitle";
+import styles from "styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -8,9 +10,17 @@ export default function Home() {
       <Head>
         <title>Karrervan Travel Blog</title>
       </Head>
+      <NavBar />
       <main>
         <IntroPage />
+        <div className="filler"></div>
       </main>
+      <style jsx>{`
+        .filler {
+          height: 100vh;
+          width: 100vw;
+        }
+      `}</style>
     </div>
   );
 }
