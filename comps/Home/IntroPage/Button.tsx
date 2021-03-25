@@ -10,14 +10,13 @@ const ButtonContainer = ({ children }) => (
         justify-content: space-evenly;
         border: red solid thin;
         height: auto;
-        width: 60vw;
-        margin-top: 70vh;
-        margin-left: 10vw;
+        width: calc(60vw + 50px);
+        margin-top: calc(70vh + 50px);
+        margin-left: 2vw;
       }
     `}</style>
   </>
 );
-
 export default ButtonContainer;
 
 interface ButtonProps {
@@ -37,7 +36,7 @@ export const Button = ({ children, link }: ButtonProps) => (
     </div>
     <style jsx>{`
       .Button {
-        border: var(--main-grey) solid 2px;
+        border: var(--main-grey) solid 1px;
         max-height: 95px;
         max-width: 300px;
         height: auto;

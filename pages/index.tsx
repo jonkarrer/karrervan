@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ButtonContainer, { Button } from "../comps/Home/Button";
+import IntroPage from "../comps/Home/IntroPage/IntroPage";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -8,11 +8,9 @@ export default function Home() {
       <Head>
         <title>Karrervan Travel Blog</title>
       </Head>
-      <ButtonContainer>
-        <Button link="/about">About</Button>
-        <Button link="/shop">Shop</Button>
-        <Button link="/blog">Blog</Button>
-      </ButtonContainer>
+      <section className={styles.Home}>
+        <IntroPage />
+      </section>
     </div>
   );
 }
