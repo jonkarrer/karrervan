@@ -12,11 +12,11 @@ const ImageContainer = () => (
     </div>
     <style jsx>{`
       .ImageContainer {
-        border: blue solid thin;
-        max-width: 1000px;
-        width: calc(50vw + 100px);
+        max-width: 1500px;
+        width: 80vw;
         height: 100vh;
         position: absolute;
+        top: 0;
         right: 0;
         z-index: -1;
       }

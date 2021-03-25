@@ -6,16 +6,15 @@ const TitleContainer = () => (
       <Image
         src="/Home/Karrervan.jpg"
         alt="Karravan title"
-        height={180}
+        height={200}
         width={1000}
       />
     </div>
     <style jsx>{`
       .TitleContainer {
-        border: green solid thick;
-        margin: 5vh;
-        margin-top: 10vh;
-        margin-left: 5vw;
+        margin-top: calc(15vh + 50px);
+        margin-left: 3vw;
+        margin-right: 100px;
         position: absolute;
       }
     `}</style>

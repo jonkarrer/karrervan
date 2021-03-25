@@ -8,9 +8,9 @@ export default function Home() {
       <Head>
         <title>Karrervan Travel Blog</title>
       </Head>
-      <section className={styles.Home}>
+      <main>
         <IntroPage />
-      </section>
+      </main>
     </div>
   );
 }

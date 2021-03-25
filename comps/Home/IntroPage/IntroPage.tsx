@@ -1,4 +1,5 @@
-import ButtonContainer, { Button } from "./Button";
+import Button from "./Button";
+import ButtonContainer from "./ButtonContainer";
 import Image from "./ImageContainer";
 import Title from "./TitleContainer";
 const IntroPage = () => (
@@ -14,10 +15,9 @@ const IntroPage = () => (
     </div>
     <style jsx>{`
       .IntroPage {
-        position: relative;
         height: 100vh;
         width: 100vw;
-        border: yellow solid thick;
+        position: relative;
       }
     `}</style>
   </>
