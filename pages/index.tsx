@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Button from "../comps/Home/Button";
-import ButtonContainer from "../comps/Home/ButtonContainer";
+import ButtonContainer, { Button } from "../comps/Home/Button";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
