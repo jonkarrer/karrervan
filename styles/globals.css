@@ -13,3 +13,6 @@ a {
 * {
   box-sizing: border-box;
 }
+:root {
+  --main-grey: #707070;
+}
