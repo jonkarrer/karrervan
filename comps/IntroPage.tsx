@@ -9,7 +9,7 @@ const IntroPage = () => (
          * layout will throw a type error if width and height are added with fill
          */}
         <Image
-          src="/Home/home_page_mountain.jpg"
+          src="/Intro/home_page_mountain.jpg"
           alt="Big mountain picture"
           layout="fill"
           objectFit="cover"
@@ -18,7 +18,7 @@ const IntroPage = () => (
       </div>
       <div className="title-container">
         <Image
-          src="/Home/Karrervan.jpg"
+          src="/Intro/Karrervan.jpg"
           alt="Karravan title"
           height={200}
           width={1000}

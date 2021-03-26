@@ -28,11 +28,11 @@ const NavBar = () => (
     <style jsx>{`
       .NavBar {
         display: flex;
-        height: 8vh;
+        height: 6vh;
         width: 100vw;
         position: fixed;
         background: white;
-        opacity: 0.8;
+        opacity: 0.6;
       }
       .links-container {
         display: flex;
@@ -43,7 +43,7 @@ const NavBar = () => (
       }
       .links-container a {
         color: var(--main-grey);
-        font-size: calc(1vw + 15px);
+        font-size: calc(0.5vw + 15px);
         opacity: 1;
       }
       .image-slicer {

@@ -13,14 +13,23 @@ export default function Home() {
       <NavBar />
       <main>
         <IntroPage />
-        <div className="filler"></div>
+        <div className={styles.pageContainer} id="destinations-page">
+          <div className={styles.imageCollage}></div>
+          <LargeTitle>Destinations</LargeTitle>
+        </div>
+        <div className={styles.pageContainer} id="shop-page">
+          <div className={styles.imageCollage}></div>
+          <LargeTitle>Shop</LargeTitle>
+        </div>
+        <div className={styles.pageContainer} id="recipes-page">
+          <div className={styles.imageCollage}></div>
+          <LargeTitle>Recipes</LargeTitle>
+        </div>
+        <div className={styles.pageContainer} id="blog-page">
+          <div className={styles.imageCollage}></div>
+          <LargeTitle>Blog</LargeTitle>
+        </div>
       </main>
-      <style jsx>{`
-        .filler {
-          height: 100vh;
-          width: 100vw;
-        }
-      `}</style>
     </div>
   );
 }
