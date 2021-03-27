@@ -35,7 +35,7 @@ const IntroPage = () => (
         height: 100vh;
         width: 100vw;
         position: relative;
-        z-index: 1;
+        z-index: 2;
         background: white;
       }
       .button-container {

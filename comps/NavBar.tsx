@@ -33,6 +33,7 @@ const NavBar = () => (
         position: fixed;
         background: white;
         opacity: 0.6;
+        z-index: 1;
       }
       .links-container {
         display: flex;

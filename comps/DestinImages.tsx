@@ -46,7 +46,7 @@ const DestinImages = () => (
           alt="Picture of a smokey mountain"
           height={370}
           width={370}
-          className="Leconte"
+          className="leconte"
         />
         <Image
           src="/Destinations/kansas.jpg"
@@ -63,7 +63,9 @@ const DestinImages = () => (
         height: 550px;
         width: 90vw;
         max-width: 1500px;
-        z-index: -2;
+      }
+      .destin-container:hover {
+        cursor: pointer;
       }
       .left-group {
         display: grid;
