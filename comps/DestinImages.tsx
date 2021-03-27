@@ -3,7 +3,7 @@ import Image from "next/image";
 const DestinImages = () => (
   <>
     <div className="destin-container">
-      <div className="leftGroup">
+      <div className="left-group">
         <Image
           src="/Destinations/colorado_backpack.jpg"
           alt="Picture of a colorado mountain"
@@ -36,8 +36,8 @@ const DestinImages = () => (
       <Image
         src="/Destinations/mt_ida.jpg"
         alt="Picture of a camp on mt. ida Arkansas"
-        height={600}
-        width={600}
+        height={500}
+        width={500}
         className="mtIda"
       />
       <div className="right-group">
@@ -60,11 +60,17 @@ const DestinImages = () => (
     <style jsx>{`
       .destin-container {
         display: flex;
+        height: 500px;
       }
-      .leftGroup {
+      .left-group {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-columns: auto auto;
+        height: 500px;
+      }
+      .right-group {
+        display: grid;
+        height: 600px;
       }
     `}</style>
   </>
