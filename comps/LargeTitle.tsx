@@ -5,13 +5,12 @@ const LargeTitle = ({ children }) => (
     </div>
     <style jsx>{`
       .LargeTitle {
-        border: green solid thick;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        height: 100px;
       }
       h1 {
-        border: red solid thin;
         font-size: 8vw;
         margin-left: 2%;
         color: white;

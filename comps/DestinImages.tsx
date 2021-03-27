@@ -60,7 +60,10 @@ const DestinImages = () => (
     <style jsx>{`
       .destin-container {
         display: flex;
-        height: 500px;
+        height: 550px;
+        width: 90vw;
+        max-width: 1500px;
+        z-index: -2;
       }
       .left-group {
         display: grid;

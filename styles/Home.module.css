@@ -3,12 +3,14 @@
   width: 100vw;
   min-height: 500px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
   margin-top: 200px;
 }
 .imageCollage {
-  height: 75vh;
-  border: yellow solid thick;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
 }
 /*
 * This section controls Destination images
