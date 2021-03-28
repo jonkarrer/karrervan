@@ -36,6 +36,11 @@ const DestinImages = () => (
             <p>Tennessee</p>
           </div>
         </div>
+        <div className="kansas">
+          <div className="overlay">
+            <p>Kansas</p>
+          </div>
+        </div>
         <Image
           src="/Destinations/kansas.jpg"
           alt="Picture of a camp in kansas"
@@ -153,6 +158,20 @@ const DestinImages = () => (
         width: 300px;
       }
       .leconte:hover > .overlay {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .kansas {
+        background-image: url("/Destinations/kansas.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 300px;
+      }
+      .kansas:hover > .overlay {
         display: flex;
         height: 100%;
         width: 100%;
