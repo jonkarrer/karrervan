@@ -41,35 +41,31 @@ const DestinImages = () => (
             <p>Kansas</p>
           </div>
         </div>
-        <Image
-          src="/Destinations/kansas.jpg"
-          alt="Picture of a camp in kansas"
-          height={370}
-          width={370}
-          className="kansas"
-        />
       </div>
     </div>
     <style jsx>{`
       .destin-container {
         display: flex;
-        height: 550px;
+        height: 80%;
         width: 90vw;
-        max-width: 1500px;
+        max-width: 2000px;
       }
       .destin-container:hover {
         cursor: pointer;
       }
       .left-group {
+        flex: 1;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-columns: auto auto;
-        height: 400px;
+        height: 30vh;
         width: auto;
       }
       .right-group {
+        flex: 1;
         display: grid;
         height: 600px;
+        width: 300px;
       }
       p {
         font-size: 3em;
@@ -80,12 +76,23 @@ const DestinImages = () => (
         align-items: center;
         justify-content: center;
       }
-      .colorado {
-        background-image: url("/Destinations/colorado_backpack.jpg");
+      .colorado,
+      .sedona,
+      .faye,
+      .ozarks,
+      .mt-ida,
+      .leconte,
+      .kansas {
         background-position: center;
         background-size: cover;
-        height: 200px;
-        width: 270px;
+        background-repeat: no-repeat;
+      }
+      .colorado {
+        background-image: url("/Destinations/colorado_backpack.jpg");
+        height: 30vh;
+        width: 20vw;
+        max-height: 500px;
+        max-width: 500px;
       }
       .colorado:hover > .overlay {
         display: flex;
@@ -95,11 +102,10 @@ const DestinImages = () => (
       }
       .faye {
         background-image: url("/Destinations/faye_canyon.JPG");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 270px;
+        height: 30vh;
+        width: 20vw;
+        max-height: 500px;
+        max-width: 500px;
       }
       .faye:hover > .overlay {
         display: flex;
@@ -109,11 +115,10 @@ const DestinImages = () => (
       }
       .ozarks {
         background-image: url("/Destinations/ozarks.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 270px;
+        height: 30vh;
+        width: 20vw;
+        max-height: 500px;
+        max-width: 500px;
       }
       .ozarks:hover > .overlay {
         display: flex;
@@ -123,11 +128,10 @@ const DestinImages = () => (
       }
       .sedona {
         background-image: url("/Destinations/cathedral_rock.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 270px;
+        height: 30vh;
+        width: 20vw;
+        max-height: 500px;
+        max-width: 500px;
       }
       .sedona:hover > .overlay {
         display: flex;
@@ -136,12 +140,10 @@ const DestinImages = () => (
         background: rgba(0, 0, 0, 0.5);
       }
       .mt-ida {
+        flex: 2;
         background-image: url("/Destinations/mt_ida.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 500px;
-        width: 500px;
+        max-height: 500px;
+        max-width: 500px;
       }
       .mt-ida:hover > .overlay {
         display: flex;
@@ -151,11 +153,9 @@ const DestinImages = () => (
       }
       .leconte {
         background-image: url("/Destinations/tennessee.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
+        height: 320px;
+        width: 22vw;
+        max-width: 500px;
       }
       .leconte:hover > .overlay {
         display: flex;
@@ -165,11 +165,9 @@ const DestinImages = () => (
       }
       .kansas {
         background-image: url("/Destinations/kansas.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
+        height: 320px;
+        width: 22vw;
+        max-width: 500px;
       }
       .kansas:hover > .overlay {
         display: flex;

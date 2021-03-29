@@ -11,8 +11,8 @@ const LargeTitle = ({ children }) => (
         height: 100px;
       }
       h1 {
-        font-size: 8vw;
-        margin-left: 2%;
+        font-size: calc(4.5vw + 4em);
+        margin-left: 5%;
         color: white;
         font-weight: bold;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
